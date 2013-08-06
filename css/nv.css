@@ -1,40 +1,94 @@
 
 body {
 	margin:0;
-	background-color:#F4EAD4;
+	background-color:#F6F6EF;
 	padding: 0px 300px 0 300px; 
-	font-family: 'apercubold',sans-serif;
+	font-family: 'apercubold', 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'apercubold', 'Montserrat', sans-serif;
+}
+
+.winterTitle {
+	padding:400px, 30px, 100px, 30px;
+	text-align: center;
+	margin-top: 150px;
+}
+
+.aboutWinter {
+	margin-top: 80px;
+	margin-bottom: 75px;
+}
+
+.recipeTitle {
+	padding-top:0px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.serves {
+	margin-top: 10px;
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+.ingred {
+	padding-right: 10px;
 }
 
 ul {
 	list-style-type: none;
-	display: inline;
-	font-size: 20px;
-	float: left;
+	font-size: 14px;
+	position:absolute;
+	list-style-type: none;
+	padding:0px;
 }
 
 li {
-	display: inline;
-	text-align: center;
-	float: left;
-	margin-top: 20px;
+	text-align: left;
+	margin-top: 25px;
+	position: relative;
+	left:0;
+	padding-left:0;
+	float: none;
+}
+
+.prep {
+	padding-left: 20px;
+	line-height: 2;
 }
 
 h1 {
-	color: #0B24FB;
-	font-family: "apercubold", sans-serif;
-	font-size: 55pt;
+	color: #0B24FE;
+	font-family: 'apercubold', 'Montserrat' sans-serif;
+	font-size: 100pt;
 }
 
-h2, h4, h5 {
-	color:#3D3C3A;
-	font: 'Apercu-regular';
-	padding:0;
-	margin:0;
+
+h2 {
+	font-size: 40pt;
+	font-family: "apercubold", 'Montserrat' sans-serif;
+	text-align: center;
 }
 
 h3 {
-	color: white;
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+h4 {
+	font-size: 12pt;
+	color: #0B24FE;
+}
+
+h5 {
+	font-size: 14pt;
+	text-decoration: underline;
+}
+
+ul h5 {
+	text-decoration: none;
 }
 
 .post h3 {
